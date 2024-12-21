@@ -1,9 +1,9 @@
 "use client";
-import IconCheck from "@/public/icons/IconCheck";
-import IconDeleteAll from "@/public/icons/IconDeleteAll";
-import IconFileCheck from "@/public/icons/IconFileCheck";
-import IconGrid from "@/public/icons/IconGrid";
-import IconStopwatch from "@/public/icons/IconStopwatch";
+import IconCheck from "@/public/icons/iconCheck";
+import IconDeleteAll from "@/public/icons/iconDeleteAll";
+import IconFileCheck from "@/public/icons/iconFileCheck";
+import IconGrid from "@/public/icons/iconGrid";
+import IconStopwatch from "@/public/icons/iconStopwatch";
 import { link } from "fs";
 import Image from "next/image";
 import Link from "next/link";
