@@ -1,5 +1,5 @@
 import { useTasks } from "@/context/taskContext";
-import { edit, star, trash } from "@/utils/Icons";
+import { edit, star, trash } from "@/utils/icons";
 import { Task } from "@/utils/types";
 import { formatTime } from "@/utils/utilities";
 import React from "react";
@@ -43,9 +43,8 @@ function TaskItem({ task }: TaskItemProps) {
         <div>
           <div className="flex items-center gap-3 text-gray-400 text-[1.2rem]">
             <button
-              className={`${
-                task.completed ? "text-yellow-400" : "text-gray-400"
-              }`}
+              className={`${task.completed ? "text-yellow-400" : "text-gray-400"
+                }`}
             >
               {star}
             </button>
